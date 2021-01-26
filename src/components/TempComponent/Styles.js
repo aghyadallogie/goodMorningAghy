@@ -16,7 +16,7 @@ box-shadow: 9px 9px 15px rgba(0, 0, 0, 0.6);
 overflow: hidden;
 border-top: 1px solid rgba(255, 255, 255, 0.5);
 border-left: 1px solid rgba(255, 255, 255, 0.5);
-backdrop-filter: blur(3px);
+backdrop-filter: blur(7px);
 `;
 
 export const CountryCode = styled.sup`

@@ -54,9 +54,9 @@ export const Temperature = () => {
       </figure>
 
       <div>
-        <h1 style={{ fontSize: '24px', fontWeight: '500'}}>{dayName}</h1>
-        <h1 style={{ padding: "15px"}}>{new Date().toLocaleDateString()}</h1>
-        <h1 style={{ fontSize: '28px', padding: "5px", margin: '5px', border: "1px solid gold", borderRadius: '10px' }}>{time}</h1>
+        <h1 style={{ fontSize: '24px', fontWeight: '500' }}>{dayName}</h1>
+        <h1 style={{ padding: "15px", fontSize: '25px' }}>{new Date().toLocaleDateString()}</h1>
+        <h1 style={{ minWidth: "180px", fontSize: '28px', padding: "5px", margin: '5px', border: "1px solid silver", borderRadius: '10px' }}>{time}</h1>
       </div>
 
     </TemperatureComponent>

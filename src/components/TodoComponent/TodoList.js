@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { TodoItem } from './TodoItem';
+import Funnel from '../../assets/funnel.svg';
 
 export const TodoList = () => {
 
@@ -40,7 +41,7 @@ export const TodoList = () => {
     return (
         <div className="list-container">
             <span className="list-border">
-                <img id="funnel" onClick={handleFunnel} src={"https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/5322919061557740356-512.png"} />
+                <img id="funnel" onClick={handleFunnel} src={Funnel} />
             </span>
             <form className="list" onSubmit={e => handleAddTodo(e)}>
                 <div className="input-field">
